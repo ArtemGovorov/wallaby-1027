@@ -6,3 +6,7 @@ const a = async function () {
 it('should work', () => {
   return a();
 })
+
+it('should fail', () => {
+  require('../server/app');
+})
